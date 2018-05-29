@@ -13,8 +13,6 @@ class Song
   @@count = 0
   @@genres = []
   @@artists = []
-  @@unique_genres = []
-  @@unique_artists = []
   @@genre_count = {}
   @@artist_count = {}
   
