@@ -25,7 +25,7 @@ class Song
   end
   
   def self.artists
-    @@artists.collect { |artist| artist if !@@artists.include?(artist)}
+    @@artists.select { |artist| !@@artists.include?(artist)}
   end
   
   def self.genre_count
